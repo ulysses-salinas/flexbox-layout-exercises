@@ -1,0 +1,514 @@
+.mondrian {
+    display: flex;
+    
+    background-color: rgb(65, 62, 62) ;
+
+    }
+
+    .left {
+        flex:1;
+        display:flex;
+       flex-direction: column;
+       margin-left: 10px;
+       margin-top: 10px;
+       margin-right: none;
+       margin-bottom: 10px;
+      }
+      .middle {
+        flex:1;
+        display:flex;
+       flex-direction: column;
+       margin-left: none;
+       margin-top: 10px;
+       margin-right: none;
+       margin-bottom: 10px;
+      }
+      .right {
+        flex:1;
+        display:flex;
+       flex-direction: column;
+       margin-left: none;
+       margin-top: 10px;
+       margin-right: 10px;
+       margin-bottom: 10px;
+      }
+
+
+.square {
+        width: 50px;
+        height: 50px;
+       }
+
+
+.row-one {
+    display: flex;
+   }
+
+.row-two {
+    display: flex;
+    }
+
+.row-three {
+    display: flex;
+    }
+
+.row-four {
+    display: flex;
+        }
+
+.row-five {
+    display: flex;
+            
+            }
+.row-six {
+    display: flex;
+                
+ }
+ .row-seven {
+    display: flex;
+                
+ }
+
+
+.row-eight {
+    display: flex;
+}
+
+.row-nine {
+    display: flex;
+}
+
+.row-ten {
+    display: flex;
+}
+
+.white {
+      background: white;
+  }
+
+.yellow {
+      background: #ffe81a;
+  }
+
+.red {
+    background: red;
+}
+.blue {
+    background: rgb(38, 126, 226);
+}
+
+.black {
+    background: black;
+}
+
+.w1{
+    flex:1.4;
+    border-bottom: 5px solid  rgb(65, 62, 62);
+    border-right: 5px solid  rgb(65, 62, 62);
+}
+.w2 {
+ flex:2.6;
+ border-right: 5px solid  rgb(65, 62, 62);
+}
+.w3 {
+    flex:.75;
+   
+}
+.r1{
+    flex:3.25;
+    border-left: 5px solid  rgb(65, 62, 62);
+    border-right: 5px solid  rgb(65, 62, 62);
+}
+.w4{
+    flex:.75;
+    
+    
+}
+.r2{
+    flex:3.25;
+    border-left: 5px solid  rgb(65, 62, 62);
+    border-right: 5px solid  rgb(65, 62, 62);
+    
+}
+.w5 {
+    flex:.75;
+    border-top: 5px solid  rgb(65, 62, 62);
+    
+    
+}
+
+.r3{
+    flex:3.25;
+    border-left: 5px solid  rgb(65, 62, 62);
+    border-right: 5px solid  rgb(65, 62, 62);
+    height: 55px;
+    
+}
+.w6{
+    flex:.75;
+    border-right: 5px solid  rgb(65, 62, 62);
+    height:55px;
+    
+   
+}
+.r4{
+    flex:3.25;
+    
+    border-right: 5px solid  rgb(65, 62, 62);
+    border-bottom: 5px solid  rgb(65, 62, 62);
+    
+    
+}
+.w7 {
+    flex:.75;
+    border-right: 5px solid  rgb(65, 62, 62);
+    
+  
+    
+    
+}
+.bb1 {
+    flex:1.60;
+    
+    
+    height: 55px;
+    
+    
+    
+}
+.w8 {
+    flex:1.60;
+    border-right: 5px solid  rgb(65, 62, 62);
+    border-left: 5px solid  rgb(65, 62, 62);
+    
+   
+    
+    
+    
+    
+}
+.y1 {
+    flex: .75;
+    border-right: 5px solid  rgb(65, 62, 62);
+   
+    
+    
+    
+}
+.bb2 {
+    flex:1.6;
+    border-right: 5px solid  rgb(65, 62, 62);
+    
+}
+.w9 {
+    flex:1.6;
+    border-right: 5px solid  rgb(65, 62, 62);
+    
+    
+    
+}
+.y2{
+    flex:.75;
+    border-right: 5px solid  rgb(65, 62, 62);
+    height: 55px;
+    
+    
+    
+    
+}
+.w10 {
+    flex:1.6;
+    border-right: 5px solid  rgb(65, 62, 62);
+    border-top: 5px solid  rgb(65, 62, 62)
+    
+}
+.bb3 {
+    flex:1.6;
+    border-right: 5px solid  rgb(65, 62, 62);
+    border-top: 5px solid  rgb(65, 62, 62);
+   
+    
+    
+}
+.y3 {
+    flex:.74;
+     border-right: 5px solid  rgb(65, 62, 62);
+     height: 65px;
+     
+    
+}
+.w11 {
+    flex:1.55;
+    border-right: 5px solid  rgb(65, 62, 62);
+    height:65px;
+    
+}
+.y4 {
+    flex:.75;
+    border-right: 5px solid  rgb(65, 62, 62);
+    border-top: 5px solid  rgb(65, 62, 62);
+    height:60px;
+    
+}
+.w12 {
+    flex:.75;
+    border-right: 5px solid  rgb(65, 62, 62);
+    border-top: 5px solid  rgb(65, 62, 62);
+    height: 60px;
+   
+    
+}
+.w13 {
+    flex:2.50;
+    border-right: 5px solid  rgb(65, 62, 62);
+    border-top: 5px solid  rgb(65, 62, 62);
+    
+    
+}
+.y5{
+    flex: .79;
+    border-right: 5px solid  rgb(65, 62, 62);
+    height:55px;
+    
+}
+.w14 {
+    flex: .8;
+    border-right: 5px solid  rgb(65, 62, 62);
+    height:55px;
+    
+}
+.y6 {
+    flex:1;
+    border-right: 5px solid  rgb(65, 62, 62);
+    border-bottom: 5px solid  rgb(65, 62, 62);
+}
+
+.b1 {
+    flex:1;
+    border-right: 5px solid  rgb(65, 62, 62);
+    height:55px;
+}
+.y7 {
+    flex:1;
+    border-right: 5px solid  rgb(65, 62, 62);
+    height:55px;
+}
+.b2 {
+    flex:1;
+    border-right: 5px solid  rgb(65, 62, 62);
+    border-bottom: 5px solid  rgb(65, 62, 62);
+    
+}
+.y8 {
+    flex:1;
+    border-bottom: 5px solid  rgb(65, 62, 62);
+}
+.r5 {
+    flex:1.01;
+    border-left: 5px solid  rgb(65, 62, 62);
+    border-right: 5px solid  rgb(65, 62, 62);
+    height: 55px;
+}
+.w15 {
+    flex:.49;
+    border-right: 5px solid  rgb(65, 62, 62);
+    height: 55px;
+}
+.w16 {
+    flex:.49;
+    height: 55px;;
+}
+.r6 {
+    flex:1.01;
+    border-left: 5px solid  rgb(65, 62, 62);
+    border-right: 5px solid  rgb(65, 62, 62);
+    border-bottom: 5px solid  rgb(65, 62, 62);
+}
+.w17 {
+flex:.49;
+border-right: 5px solid  rgb(65, 62, 62);
+}
+.w18 {
+    flex:.49;
+}
+.w19 { 
+    flex:1.01;
+    border-left: 5px solid  rgb(65, 62, 62);
+    border-right: 5px solid  rgb(65, 62, 62);
+    border-bottom: 5px solid  rgb(65, 62, 62);
+}
+.w20 {
+    flex:1.01;
+    border-bottom: 5px solid  rgb(65, 62, 62);
+    border-right: 5px solid  rgb(65, 62, 62);
+}
+.w21 {
+    flex:.49;
+    border-right: 5px solid  rgb(65, 62, 62);
+    height: 55px;
+}
+.w22 {
+    flex:.49;
+    border-right: 5px solid  rgb(65, 62, 62);
+    height:55px;
+}
+.b3 {
+    flex: 1.01;
+    border-right: 5px solid  rgb(65, 62, 62);
+    height: 55px;
+}
+.w23{
+    flex:.49;
+    border-right: 5px solid  rgb(65, 62, 62);
+    border-bottom: 5px solid  rgb(65, 62, 62);
+}
+.w24{
+    flex:.49;
+    border-right: 5px solid  rgb(65, 62, 62);
+}
+.b4 {
+    flex:1;
+    border-bottom: 5px solid  rgb(65, 62, 62);
+    border-right: 5px solid  rgb(65, 62, 62);
+}
+.y9 {
+    flex:1;
+    border-right: 5px solid  rgb(65, 62, 62);
+    height: 55px;
+}
+.r7 {
+    flex: 1;
+    border-right: 5px solid  rgb(65, 62, 62);
+    height:55px;
+}
+.y10 {
+    flex: 1;
+    border-right: 5px solid  rgb(65, 62, 62);
+    border-bottom: 5px solid  rgb(65, 62, 62);
+}
+.r8 {
+    flex: .99;
+}
+.w25 {
+    flex: .49;
+    border-left: 5px solid  rgb(65, 62, 62);
+}
+.bb4 {
+    flex: .48;
+    border-left: 5px solid  rgb(65, 62, 62);
+    border-right: 5px solid  rgb(65, 62, 62);
+}
+
+.y11 {
+    flex: .65;
+    border-right: 5px solid  rgb(65, 62, 62);
+}
+.bb5 {
+    flex: .65;
+    border-bottom: 5px solid  rgb(65, 62, 62);
+    border-right: 5px solid  rgb(65, 62, 62);
+}
+.w26 {
+    flex: 1.93;
+    
+}
+
+.y12 {
+    flex: 1; 
+    border-bottom: 5px solid  rgb(65, 62, 62);
+    border-right: 5px solid  rgb(65, 62, 62);
+}
+.w27 {
+    flex: 1;
+    height: 55px;
+    border-right: 5px solid  rgb(65, 62, 62);
+}
+.y13 {
+    flex: .4;
+   
+    height: 55px;
+}
+
+.bb6 {
+    flex: 1;
+    border-bottom: 5px solid  rgb(65, 62, 62);
+    border-right: 5px solid  rgb(65, 62, 62);
+}
+.w28 {
+    flex: 1;
+    border-right: 5px solid  rgb(65, 62, 62);
+}
+.y14 {
+    flex: .4;
+    height: 55px;
+}
+.w29 {
+    flex: 1;
+}
+
+.bb7 {
+    flex: 1;
+    border-left: 5px solid  rgb(65, 62, 62);
+    height:55px;
+}
+.y15 {
+    flex: .41;
+    border-bottom: 5px solid  rgb(65, 62, 62);
+    border-left: 5px solid  rgb(65, 62, 62);
+}
+.w30 {
+    flex: 1;
+    border-bottom: 5px solid  rgb(65, 62, 62);
+}
+.bb8 {
+    flex: 1;
+    border-left: 5px solid  rgb(65, 62, 62);
+
+}
+.w31 {
+    flex: .41;
+    border-left: 5px solid  rgb(65, 62, 62);
+    height: 55px;
+}
+.b5 {
+    flex:2.5;
+    height:55px;
+}
+.w32 {
+    flex: .5;
+    border-left: 5px solid  rgb(65, 62, 62);
+    height:55px
+}
+.b6 {
+    flex: 2.5;
+    height:55px;
+}
+.w33 {
+    flex: .5;
+    border-left: 5px solid  rgb(65, 62, 62);
+    border-bottom: 5px solid  rgb(65, 62, 62);
+}
+.b7 {
+    flex: 2.5;
+    height:55px;
+}
+.w34 {
+    flex: .5;
+    border-left: 5px solid  rgb(65, 62, 62);
+    height:55px;
+}
+.b8 {
+    flex: 2.5;
+}
+.w35 {
+    flex: .5;
+    border-left: 5px solid  rgb(65, 62, 62);
+    border-bottom: 5px solid  rgb(65, 62, 62);
+}
+.w36 {
+    flex: 2;
+}
+.w37 {
+    flex: .75;
+    border-left: 5px solid  rgb(65, 62, 62);
+}
